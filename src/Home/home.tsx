@@ -93,7 +93,7 @@ export function Home() {
                     <div className="checkboxes">
                             <OptionsCheckBox checked={uppers} label="Uppercase" onClick={() => setUppers(!uppers)}  />
                             <OptionsCheckBox checked={numbers} label="Numbers" onClick={() => setNumbers(!numbers)} />
-                            <OptionsCheckBox checked={symbols} label="symbols" onClick={() => setSymbols(!symbols)} />
+                            <OptionsCheckBox checked={symbols} label="Symbols" onClick={() => setSymbols(!symbols)} />
                     </div>
                 </div>
                 <ColorSchemeToggle />
