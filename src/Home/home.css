@@ -1,0 +1,46 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin:auto;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom:10%;
+    border: solid gray ;
+    border-radius: 25px;
+    padding: 5%;
+
+}
+
+.password-new-copy {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.length {
+    text-align: center;
+    padding-top: 50%;
+}
+.checkboxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 10%;
+    }
+.checkItem{
+    padding: 10%;
+}
