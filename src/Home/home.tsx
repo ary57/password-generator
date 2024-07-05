@@ -56,7 +56,7 @@ export function Home() {
                     <TextInput
                         radius="xl"
                         size="md"
-                        value={password + `       ${password.length}`}
+                        value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         rightSectionWidth={84}
                         rightSection={
